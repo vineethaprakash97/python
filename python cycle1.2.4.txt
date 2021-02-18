@@ -1,0 +1,14 @@
+list1=[4,7,9,3,4]
+list2=[2,8,9,22]
+print("list1=",list1)
+print("list=2",list2)
+if(list1)==len(list2):
+   print("same lenth")
+   
+else:
+    print("not same")
+    if(sum(list1)==sum(list2)):
+       print("list sum equal")
+    else:print("not equal")
+output=any(check in list2 for check in list1)
+print("common value",output)

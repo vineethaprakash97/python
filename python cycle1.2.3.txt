@@ -1,0 +1,10 @@
+list_name=['anu','resmi','irin','vaishnav']
+count=0
+
+for  name in list_name:
+  for i in name:
+     if i=='a':
+        count=count+1
+   
+print("list is",list_name)
+print("the occurance","a",count)

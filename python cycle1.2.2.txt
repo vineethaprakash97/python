@@ -1,0 +1,10 @@
+list1=[]
+n=int(input("enter element"))
+for i in range(0,n):
+    element=int(input("enter no"))
+    if element>100:
+       list1,append("over")
+       
+    else:
+          list1,append(element)
+          print(list1)
