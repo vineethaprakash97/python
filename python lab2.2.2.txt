@@ -1,0 +1,10 @@
+def longest(list2):
+   max=len(list[0])
+   temp=len[0]
+   for i in list2:
+      if (len(i)>max):
+         max=len(i
+         temp=i
+         print("THE word with longest length is ",temp,"length",max)
+         list1=[pineapple,orange,mango,gua]
+         longest(list1)

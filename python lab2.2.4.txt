@@ -1,0 +1,7 @@
+def factor(a):
+   print("the factorof no",a,"are")
+   for i in range(1,a+1):
+      if(a%i==0):
+        print(i)
+      num=int(input("enter a no"))
+      factor(num)

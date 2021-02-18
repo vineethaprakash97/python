@@ -1,0 +1,6 @@
+square=lambda a:a*a
+rect=lambda a,b:a*b
+triangle=lambda a,b :0.5*a*b
+print("area of square",square(5))
+print("area of rectangle",rect(4,3))
+print("area of triangle",triangle(5,3))
