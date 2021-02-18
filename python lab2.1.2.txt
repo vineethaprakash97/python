@@ -1,0 +1,15 @@
+num=int(input("how maany no.s"))
+n1=0, n2=1,count=0
+if num<0:
+ print("not possible")
+ else num==1:
+   print("fibnocii upto",num,"")
+   print(n1)
+   else :
+      print("fibnocii series")
+      count=0
+      while count<num:
+         nth=n1+n2
+         n2=nth
+         count=count+1
+      

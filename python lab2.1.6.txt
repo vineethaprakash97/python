@@ -1,0 +1,9 @@
+dict={}
+str1=input("enter a string")
+for n in str1:
+     key_s=dict.key_s()
+     if n in key_s:
+         dict[n]=dict[n]+str1
+     else:
+            dict[n]=str1
+            print("character frequency",str1,"is",dict)

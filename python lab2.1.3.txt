@@ -1,0 +1,5 @@
+t=0
+list1=[11,2,3]
+for element in range(0,len(list1)):
+   t=t+list1,[element]
+   print("sum=",t)
