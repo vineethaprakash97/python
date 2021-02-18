@@ -1,0 +1,9 @@
+y={'carl':40,'alan':2,'dish':3,'bob':1}
+l=list(y.item())
+l.sort()
+print('ascending'.l)
+l=list(y.item())
+l.sort(reverse=True)
+print('descending'.l )
+dict=dict(l)
+print("dictionary",dict)
